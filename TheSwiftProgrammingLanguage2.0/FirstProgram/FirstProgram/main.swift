@@ -14,7 +14,6 @@ let label = "The width is "
 let width = 94
 let widthLabel = label + String(width)
 
-
 let apples = 3
 let oranges = 5
 let appleSummary = "I have \(apples) apples."
@@ -101,3 +100,28 @@ for (kind, numbers) in interestingNumbers {
 }
 
 print(largest)
+
+var firstForLoop = 0
+
+for i in 0..<4 {
+    firstForLoop += i
+}
+
+print(firstForLoop)
+
+firstForLoop = 0
+
+for i in 0..<4 {
+    firstForLoop += i
+}
+
+print(firstForLoop)
+
+
+var secondForLoop = 0
+
+for var i = 0; i < 4; ++i {
+    secondForLoop += i
+}
+
+print (secondForLoop)
