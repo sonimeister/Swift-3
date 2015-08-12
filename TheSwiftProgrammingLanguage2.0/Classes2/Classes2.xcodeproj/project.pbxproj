@@ -11,6 +11,8 @@
 		0B5BC1251B7B11E600ECC2A6 /* NamedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BC1241B7B11E600ECC2A6 /* NamedShape.swift */; };
 		0B5BC1271B7B11F100ECC2A6 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BC1261B7B11F100ECC2A6 /* Square.swift */; };
 		0B5BC1291B7B12C700ECC2A6 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BC1281B7B12C700ECC2A6 /* Circle.swift */; };
+		0B5BC12B1B7B164D00ECC2A6 /* EquilateralTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BC12A1B7B164D00ECC2A6 /* EquilateralTriangle.swift */; };
+		0B5BC12D1B7B176100ECC2A6 /* TriangleAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BC12C1B7B176100ECC2A6 /* TriangleAndSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		0B5BC1241B7B11E600ECC2A6 /* NamedShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedShape.swift; sourceTree = "<group>"; };
 		0B5BC1261B7B11F100ECC2A6 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		0B5BC1281B7B12C700ECC2A6 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		0B5BC12A1B7B164D00ECC2A6 /* EquilateralTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquilateralTriangle.swift; sourceTree = "<group>"; };
+		0B5BC12C1B7B176100ECC2A6 /* TriangleAndSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleAndSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				0B5BC11D1B7B11DA00ECC2A6 /* main.swift */,
+				0B5BC12C1B7B176100ECC2A6 /* TriangleAndSquare.swift */,
+				0B5BC12A1B7B164D00ECC2A6 /* EquilateralTriangle.swift */,
 				0B5BC1281B7B12C700ECC2A6 /* Circle.swift */,
 				0B5BC1261B7B11F100ECC2A6 /* Square.swift */,
 				0B5BC1241B7B11E600ECC2A6 /* NamedShape.swift */,
@@ -127,8 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B5BC12D1B7B176100ECC2A6 /* TriangleAndSquare.swift in Sources */,
 				0B5BC1271B7B11F100ECC2A6 /* Square.swift in Sources */,
 				0B5BC1291B7B12C700ECC2A6 /* Circle.swift in Sources */,
+				0B5BC12B1B7B164D00ECC2A6 /* EquilateralTriangle.swift in Sources */,
 				0B5BC11E1B7B11DA00ECC2A6 /* main.swift in Sources */,
 				0B5BC1251B7B11E600ECC2A6 /* NamedShape.swift in Sources */,
 			);
