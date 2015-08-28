@@ -8,6 +8,8 @@
 
 import Foundation
 
+// Rank
+
 let ace = Rank.Ace
 let aceRawValue = ace.rawValue
 let two = Rank.Two
@@ -16,3 +18,25 @@ print(aceRawValue)
 let comparisonResult = ace.compare(two)
 
 print(comparisonResult.rawValue)
+
+// Suit
+
+let hearts = Suit.Hearts
+
+let heartsDescription = hearts.simpleDescription()
+print(heartsDescription)
+
+let heartsColor = hearts.color()
+print(heartsColor)
+
+// Card
+
+let threeOfSpades = Card(rank: .Three, suit: .Spades)
+
+let threeOfSpadesDescription = threeOfSpades.simpleDescription()
+print(threeOfSpadesDescription)
+
+let newDeck = threeOfSpades.createDeck()
+for card in newDeck {
+    print(card.simpleDescription())
+}

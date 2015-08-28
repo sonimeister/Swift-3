@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B90898C1B90F7970085CD0F /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B90898B1B90F7970085CD0F /* Suit.swift */; };
-		0B90898E1B90FA600085CD0F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B90898D1B90FA600085CD0F /* Card.swift */; };
-		0BD7F5F01B7BDD3400E16739 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7F5EF1B7BDD3400E16739 /* main.swift */; };
-		0BD7F60A1B7BED0000E16739 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7F6091B7BED0000E16739 /* Rank.swift */; };
+		0B90899C1B9105170085CD0F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B90899B1B9105170085CD0F /* main.swift */; };
+		0B9089A31B91062E0085CD0F /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9089A21B91062E0085CD0F /* ServerResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0BD7F5EA1B7BDD3400E16739 /* CopyFiles */ = {
+		0B9089961B9105170085CD0F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,15 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B90898B1B90F7970085CD0F /* Suit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
-		0B90898D1B90FA600085CD0F /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		0BD7F5EC1B7BDD3400E16739 /* EnumAndStructs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EnumAndStructs; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BD7F5EF1B7BDD3400E16739 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		0BD7F6091B7BED0000E16739 /* Rank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		0B9089981B9105170085CD0F /* Enum_AssociatedValues */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Enum_AssociatedValues; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B90899B1B9105170085CD0F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0B9089A21B91062E0085CD0F /* ServerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BD7F5E91B7BDD3400E16739 /* Frameworks */ = {
+		0B9089951B9105170085CD0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,100 +40,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BD7F5E31B7BDD3400E16739 = {
+		0B90898F1B9105170085CD0F = {
 			isa = PBXGroup;
 			children = (
-				0BD7F5EE1B7BDD3400E16739 /* EnumAndStructs */,
-				0BD7F5ED1B7BDD3400E16739 /* Products */,
+				0B90899A1B9105170085CD0F /* Enum_AssociatedValues */,
+				0B9089991B9105170085CD0F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0BD7F5ED1B7BDD3400E16739 /* Products */ = {
+		0B9089991B9105170085CD0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BD7F5EC1B7BDD3400E16739 /* EnumAndStructs */,
+				0B9089981B9105170085CD0F /* Enum_AssociatedValues */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BD7F5EE1B7BDD3400E16739 /* EnumAndStructs */ = {
+		0B90899A1B9105170085CD0F /* Enum_AssociatedValues */ = {
 			isa = PBXGroup;
 			children = (
-				0BD7F5EF1B7BDD3400E16739 /* main.swift */,
-				0B90898D1B90FA600085CD0F /* Card.swift */,
-				0BD7F6091B7BED0000E16739 /* Rank.swift */,
-				0B90898B1B90F7970085CD0F /* Suit.swift */,
+				0B90899B1B9105170085CD0F /* main.swift */,
+				0B9089A21B91062E0085CD0F /* ServerResponse.swift */,
 			);
-			path = EnumAndStructs;
+			path = Enum_AssociatedValues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BD7F5EB1B7BDD3400E16739 /* EnumAndStructs */ = {
+		0B9089971B9105170085CD0F /* Enum_AssociatedValues */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BD7F5F31B7BDD3400E16739 /* Build configuration list for PBXNativeTarget "EnumAndStructs" */;
+			buildConfigurationList = 0B90899F1B9105170085CD0F /* Build configuration list for PBXNativeTarget "Enum_AssociatedValues" */;
 			buildPhases = (
-				0BD7F5E81B7BDD3400E16739 /* Sources */,
-				0BD7F5E91B7BDD3400E16739 /* Frameworks */,
-				0BD7F5EA1B7BDD3400E16739 /* CopyFiles */,
+				0B9089941B9105170085CD0F /* Sources */,
+				0B9089951B9105170085CD0F /* Frameworks */,
+				0B9089961B9105170085CD0F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EnumAndStructs;
-			productName = EnumAndStructs;
-			productReference = 0BD7F5EC1B7BDD3400E16739 /* EnumAndStructs */;
+			name = Enum_AssociatedValues;
+			productName = Enum_AssociatedValues;
+			productReference = 0B9089981B9105170085CD0F /* Enum_AssociatedValues */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0BD7F5E41B7BDD3400E16739 /* Project object */ = {
+		0B9089901B9105170085CD0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Angel Ricardo";
 				TargetAttributes = {
-					0BD7F5EB1B7BDD3400E16739 = {
+					0B9089971B9105170085CD0F = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
-			buildConfigurationList = 0BD7F5E71B7BDD3400E16739 /* Build configuration list for PBXProject "EnumAndStructs" */;
+			buildConfigurationList = 0B9089931B9105170085CD0F /* Build configuration list for PBXProject "Enum_AssociatedValues" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0BD7F5E31B7BDD3400E16739;
-			productRefGroup = 0BD7F5ED1B7BDD3400E16739 /* Products */;
+			mainGroup = 0B90898F1B9105170085CD0F;
+			productRefGroup = 0B9089991B9105170085CD0F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BD7F5EB1B7BDD3400E16739 /* EnumAndStructs */,
+				0B9089971B9105170085CD0F /* Enum_AssociatedValues */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BD7F5E81B7BDD3400E16739 /* Sources */ = {
+		0B9089941B9105170085CD0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BD7F5F01B7BDD3400E16739 /* main.swift in Sources */,
-				0B90898C1B90F7970085CD0F /* Suit.swift in Sources */,
-				0BD7F60A1B7BED0000E16739 /* Rank.swift in Sources */,
-				0B90898E1B90FA600085CD0F /* Card.swift in Sources */,
+				0B90899C1B9105170085CD0F /* main.swift in Sources */,
+				0B9089A31B91062E0085CD0F /* ServerResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0BD7F5F11B7BDD3400E16739 /* Debug */ = {
+		0B90899D1B9105170085CD0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -180,7 +172,7 @@
 			};
 			name = Debug;
 		};
-		0BD7F5F21B7BDD3400E16739 /* Release */ = {
+		0B90899E1B9105170085CD0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,14 +207,14 @@
 			};
 			name = Release;
 		};
-		0BD7F5F41B7BDD3400E16739 /* Debug */ = {
+		0B9089A01B9105170085CD0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		0BD7F5F51B7BDD3400E16739 /* Release */ = {
+		0B9089A11B9105170085CD0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -232,25 +224,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BD7F5E71B7BDD3400E16739 /* Build configuration list for PBXProject "EnumAndStructs" */ = {
+		0B9089931B9105170085CD0F /* Build configuration list for PBXProject "Enum_AssociatedValues" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BD7F5F11B7BDD3400E16739 /* Debug */,
-				0BD7F5F21B7BDD3400E16739 /* Release */,
+				0B90899D1B9105170085CD0F /* Debug */,
+				0B90899E1B9105170085CD0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BD7F5F31B7BDD3400E16739 /* Build configuration list for PBXNativeTarget "EnumAndStructs" */ = {
+		0B90899F1B9105170085CD0F /* Build configuration list for PBXNativeTarget "Enum_AssociatedValues" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BD7F5F41B7BDD3400E16739 /* Debug */,
-				0BD7F5F51B7BDD3400E16739 /* Release */,
+				0B9089A01B9105170085CD0F /* Debug */,
+				0B9089A11B9105170085CD0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0BD7F5E41B7BDD3400E16739 /* Project object */;
+	rootObject = 0B9089901B9105170085CD0F /* Project object */;
 }
