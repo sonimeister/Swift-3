@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bug" translatesAutoresizingMaskIntoConstraints="NO" id="ciV-7p-rDu">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <accessibility key="accessibilityConfiguration" hint="Deitel double-thumbs-up bug logo" label="Deitel logo">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to iOS App Development" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fS5-rV-czz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ciV-7p-rDu" secondAttribute="bottom" id="3Sv-BN-xar"/>
+                            <constraint firstItem="fS5-rV-czz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="4Da-ML-gY8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ciV-7p-rDu" secondAttribute="trailing" constant="-16" id="57F-Ko-8OR"/>
+                            <constraint firstItem="fS5-rV-czz" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="Adk-GJ-m0F"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fS5-rV-czz" secondAttribute="trailing" constant="-16" id="IOm-0y-Zbf"/>
+                            <constraint firstItem="ciV-7p-rDu" firstAttribute="height" secondItem="fS5-rV-czz" secondAttribute="height" id="Khx-BI-t1N"/>
+                            <constraint firstItem="ciV-7p-rDu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="UQn-5n-FbZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ciV-7p-rDu" secondAttribute="trailing" constant="-16" id="rWp-pb-WiD"/>
+                            <constraint firstItem="ciV-7p-rDu" firstAttribute="top" secondItem="fS5-rV-czz" secondAttribute="bottom" id="zpX-xd-jG9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rWp-pb-WiD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bug" width="421" height="207"/>
+    </resources>
+</document>
