@@ -56,7 +56,7 @@ if isBeginningInFourHours(startDate) {
 
 // Test case hasLessThanSixHoursAsCurrentActivity
 
-let endDate = NSDate.dateFromString("2015-10-16 07:22:28", format: "yyyy-MM-dd HH:mm:ss")
+let endDate = NSDate.dateFromString("2015-10-16 10:22:28", format: "yyyy-MM-dd HH:mm:ss")
 
 endDate + 6
 if hasLessThanSixHoursAsCurrentActivity(endDate) {
